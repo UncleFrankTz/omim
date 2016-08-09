@@ -59,6 +59,7 @@ public:
   void PrepareShutdown();
 
   Framework & GetFramework() { return m_framework; }
+
   void SetMapStyle(MapStyle mapStyle);
 
   void SetRouter(routing::RouterType routerType);
@@ -105,8 +106,6 @@ private:
   QPoint m_rubberBandOrigin;
 
   bool m_emulatingLocation;
-
-  void InitRenderPolicy();
 
   TCurrentCountryChanged m_currentCountryChanged;
   storage::TCountryId m_countryId;
