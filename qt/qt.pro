@@ -103,7 +103,9 @@ map_designer {
   DESIGN_TOOL_RES.path = $$DATADIR
   DESIGN_TOOL_RES.files = ../data/drules_proto_design.bin \
                           ../data/colors_design.txt \
-                          ../data/patterns_design.txt
+                          ../data/patterns_design.txt \
+                          ../data/mapcss-dynamic.txt \
+                          ../data/mapcss-mapping.csv
 
   DESIGN_TOOL_MDPI_RES.path = $$DATADIR/resources-mdpi_design
   DESIGN_TOOL_MDPI_RES.files = ../data/resources-mdpi_design/symbols.png \
